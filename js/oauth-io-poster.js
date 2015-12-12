@@ -1,4 +1,3 @@
-// Shares the image and message on Facebook using OAuth
 function shareImageOnFacebook() {
     OAuth.initialize(FacebookOAuthIOAppKey);
     OAuth.popup("facebook").then(function(result) {
@@ -38,7 +37,6 @@ function getImageBlob(mimetype) {
     return blob;
 }
 
-// Shares the image and message on Twitter using OAuth
 function shareImageOnTwitter() {
     OAuth.initialize(TwitterOAuthIOAppKey);
     OAuth.popup("twitter").then(function(result) {
