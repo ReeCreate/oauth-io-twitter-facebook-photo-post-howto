@@ -1,0 +1,11 @@
+#testImage, #testMessage, #facebookShareButton, #twitterShareButton, #shareStatus, #missingKeyWarnings {
+    font-family: sans-serif;
+    display: block;
+    margin: 0 0 10px 10px;
+}
+
+#missingKeyWarnings {
+    color: red;
+    visibility: hidden;
+}
+
